@@ -59,7 +59,7 @@ li {
 	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
 }
 
-.tlacitko {
+.pauza,.reset,.volume {
 	display: inline-block;
 	font-family: Monserrat, sans-serif;
 	font-size: 36px;
@@ -78,46 +78,15 @@ li {
 	box-shadow: 0px 5px 0px 0px #c5376d, 0px 10px 5px #999;
 }
 
-.tlacitko:active {
+.pauza:active, .reset:active, .volume:active {
 	top: 3px;
 	box-shadow: 0px 2px 0px 0px #c5376d, 0px 5px 3px #999;
 }
 
-.obrazek {
-	display: block;
-	margin: 50px 0;
-}
-
-.ctverecek {
-	margin: 50px 0;
-	width: 200px;
-	height: 200px;
-	font-family: "Montserrat", sans-serif;
-	font-size: 120px;
+.ztucneno {
 	font-weight: bold;
-	line-height: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: 3px solid;
-	border-radius: 10px;
 }
 
-.zluty {
-	background-color: yellow;
-	color: red;
-	border-color: orange;
-}
-
-.zeleny {
-	background-color: greenyellow;
-	color: black;
-	border-color: green;
-}
-
-
-.aktivni {
-	background-color: cyan;
-	color: black;
-	border-color: blue;
+.cervena {
+	color: red
 }
